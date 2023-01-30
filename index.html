@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <input type="text" id="search-term">
+            <button id="search"><i class="fas fa-search"></i></button>
+        </header>
+
+        <div class="fav-container">
+            <h3>Favorite Meals</h3>
+            <ul class="fav-meals" id="fav-meals">
+                <!-- Favorite Meals -->
+            </ul>
+        </div>
+
+        <div class="meals" id="random-meal">
+
+        </div>
+    </div>
+
+    <div class="meal-info-container hidden" id="meal-info-popup">
+
+        <div class="meal-container" id="meal-info">
+            <h1>Meal title</h1>
+            <div class="meal-info">
+                <button class="close-popup" id="close-popup">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <div class="meal-recipe" id="meal-recipe">
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
+
